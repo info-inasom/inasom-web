@@ -6,42 +6,109 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>INASOM - Industria Naval y Sector Marítimo</title>
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-  <link rel="manifest" href="manifest.json">
+  <style>
+    .fade-in {
+      opacity: 0;
+      transform: translateY(20px);
+      animation: fadeIn 1s ease-out forwards;
+    }
+    .fade-in-delay-1 { animation-delay: 0.5s; }
+    .fade-in-delay-2 { animation-delay: 1s; }
+    .fade-in-delay-3 { animation-delay: 1.5s; }
+    @keyframes fadeIn {
+      to {
+        opacity: 1;
+        transform: none;
+      }
+    }
+  </style>
 </head>
 <body class="bg-gray-50 text-gray-800">
 
-
-<section class="py-20 bg-white">
-  <div class="max-w-7xl mx-auto px-6">
-    <h2 class="text-3xl font-bold text-center mb-12 fade-in">Nuestras Unidades de Negocio</h2>
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-10 text-center">
-      <a href="productions_con_imagen.html" class="block fade-in fade-in-delay-1 hover:bg-gray-50 p-4 rounded-xl shadow-sm">
-        <h3 class="text-xl font-semibold text-blue-800 mb-2">🎥 Productions</h3>
-        <p>Contenidos técnicos y audiovisuales para el sector.</p>
-      </a>
-      <a href="recruiting_con_imagen.html" class="block fade-in fade-in-delay-2 hover:bg-gray-50 p-4 rounded-xl shadow-sm">
-        <h3 class="text-xl font-semibold text-blue-800 mb-2">⚙️ Recruiting</h3>
-        <p>Conexión entre talento especializado y empresas del entorno marítimo.</p>
-      </a>
-      <a href="events_con_imagen.html" class="block fade-in fade-in-delay-3 hover:bg-gray-50 p-4 rounded-xl shadow-sm">
-        <h3 class="text-xl font-semibold text-blue-800 mb-2">🌐 Events & Marketing</h3>
-        <p>Eventos, ferias y campañas para visibilizar innovación y negocio.</p>
-      </a>
-      <a href="podcast_con_imagen.html" class="block fade-in fade-in-delay-1 hover:bg-gray-50 p-4 rounded-xl shadow-sm">
-        <h3 class="text-xl font-semibold text-blue-800 mb-2">🎙️ Podcast</h3>
-        <p>Conversaciones con referentes del sector y nuevos talentos.</p>
-      </a>
-      <a href="news_con_imagen.html" class="block fade-in fade-in-delay-2 hover:bg-gray-50 p-4 rounded-xl shadow-sm">
-        <h3 class="text-xl font-semibold text-blue-800 mb-2">📰 News</h3>
-        <p>Actualidad, tecnología, opinión y análisis del sector naval.</p>
-      </a>
-      <a href="market_con_imagen.html" class="block fade-in fade-in-delay-3 hover:bg-gray-50 p-4 rounded-xl shadow-sm">
-        <h3 class="text-xl font-semibold text-blue-800 mb-2">⚓ Marketplace</h3>
-        <p>Compra y venta de equipos navales de segunda mano con garantía.</p>
-      </a>
+  <!-- Hero Section -->
+  <section class="bg-blue-900 text-white py-20">
+    <div class="max-w-6xl mx-auto px-6 text-center">
+      <img src="logo-inasom.png" alt="INASOM Logo" class="mx-auto mb-6 w-48 fade-in" />
+      <h1 class="text-5xl font-bold mb-4 fade-in">INASOM</h1>
+      <p class="text-xl mb-6 fade-in fade-in-delay-1">Industria Naval y Sector Marítimo</p>
+      <p class="text-lg mb-6 fade-in fade-in-delay-2">Impulsamos el talento, la innovación y la conexión en el mundo marítimo-industrial.</p>
+      <a href="#unidades" class="bg-white text-blue-900 px-6 py-3 font-semibold rounded-full shadow-md hover:bg-blue-100 fade-in fade-in-delay-3">Descubre más</a>
     </div>
-  </div>
-</section>
+  </section>
+
+  <!-- Unidades de Negocio -->
+  <section id="unidades" class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-6">
+      <h2 class="text-3xl font-bold text-center mb-12 fade-in">Nuestras Unidades de Negocio</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+
+        <a href="productions_con_navbar.html" class="block overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow">
+          <img src="https://images.unsplash.com/photo-1597262975002-c5c3b14bbd62?auto=format&fit=crop&w=800&q=80" class="w-full h-48 object-cover" alt="Productions">
+          <div class="p-4">
+            <h3 class="text-xl font-bold text-blue-800 mb-2">🎥 INASOM Productions</h3>
+            <p>Contenidos técnicos y audiovisuales para el sector marítimo-industrial.</p>
+          </div>
+        </a>
+
+        <a href="recruiting_con_navbar.html" class="block overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow">
+          <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=800&q=80" class="w-full h-48 object-cover" alt="Recruiting">
+          <div class="p-4">
+            <h3 class="text-xl font-bold text-blue-800 mb-2">⚙️ INASOM Recruiting</h3>
+            <p>Conectamos talento especializado con empresas del sector naval.</p>
+          </div>
+        </a>
+
+        <a href="events_con_navbar.html" class="block overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow">
+          <img src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=800&q=80" class="w-full h-48 object-cover" alt="Events">
+          <div class="p-4">
+            <h3 class="text-xl font-bold text-blue-800 mb-2">🌐 INASOM Events & Marketing</h3>
+            <p>Ferias, jornadas técnicas y campañas de visibilidad sectorial.</p>
+          </div>
+        </a>
+
+        <a href="podcast_con_navbar.html" class="block overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow">
+          <img src="https://images.unsplash.com/photo-1581090700227-1e8e7c42bba3?auto=format&fit=crop&w=800&q=80" class="w-full h-48 object-cover" alt="Podcast">
+          <div class="p-4">
+            <h3 class="text-xl font-bold text-blue-800 mb-2">🎙️ INASOM Podcast</h3>
+            <p>Conversaciones con referentes técnicos y nuevas generaciones.</p>
+          </div>
+        </a>
+
+        <a href="news_con_navbar.html" class="block overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow">
+          <img src="https://images.unsplash.com/photo-1581090700227-1e8e7c42bba3?auto=format&fit=crop&w=800&q=80" class="w-full h-48 object-cover" alt="News">
+          <div class="p-4">
+            <h3 class="text-xl font-bold text-blue-800 mb-2">📰 INASOM News</h3>
+            <p>Noticias, tecnología y análisis técnico del sector marítimo.</p>
+          </div>
+        </a>
+
+        <a href="market_con_navbar.html" class="block overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow">
+          <img src="https://images.unsplash.com/photo-1581578017429-79a5b2549b50?auto=format&fit=crop&w=800&q=80" class="w-full h-48 object-cover" alt="Marketplace">
+          <div class="p-4">
+            <h3 class="text-xl font-bold text-blue-800 mb-2">⚓ Second Hand Market</h3>
+            <p>Compraventa técnica de equipos navales de segunda mano.</p>
+          </div>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Comunidad -->
+  <section class="bg-blue-50 py-16">
+    <div class="max-w-4xl mx-auto px-6 text-center fade-in">
+      <h2 class="text-2xl font-bold text-blue-900 mb-4">Únete a la Comunidad INASOM</h2>
+      <p class="text-lg mb-6">Accede a contenido exclusivo, ofertas de empleo y eventos técnicos.</p>
+      <a href="#" class="bg-blue-900 text-white px-6 py-3 rounded-full font-semibold hover:bg-blue-800">Entrar al grupo de WhatsApp</a>
+    </div>
+  </section>
+
+  <footer class="bg-blue-900 text-white py-8">
+    <div class="max-w-6xl mx-auto px-6 text-center">
+      <p class="text-sm">© 2025 INASOM. Todos los derechos reservados.</p>
+      <p class="text-sm mt-2">Contacto: info@inasom.com</p>
+    </div>
+  </footer>
 
 </body>
 </html>
