@@ -27,21 +27,6 @@ INASOM es un ecosistema que une seis líneas de negocio especializadas para dar 
 - `market_con_imagen.html` – Página del Marketplace
 - `logo-inasom.png` – Logotipo principal
 
-## 🛠 Cómo publicar
-
-Este sitio puede desplegarse fácilmente en **GitHub Pages** o **Netlify**.
-
-### ✅ GitHub Pages
-
-1. Sube todos los archivos al repositorio.
-2. Renombra `index.html` como página principal si es necesario.
-3. Activa Pages desde la pestaña "Settings" → "Pages".
-
-### ✅ Netlify
-
-1. Crea una cuenta en [Netlify](https://netlify.com).
-2. Arrastra los archivos al panel.
-3. Obtendrás una URL pública automática.
 
 ## 📬 Contacto
 
