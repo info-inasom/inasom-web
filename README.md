@@ -31,7 +31,7 @@ INASOM es un ecosistema que une seis líneas de negocio especializadas para dar 
 ## 📬 Contacto
 
 Para colaborar o formar parte del proyecto:  
-📧 info@inasom.com  
+📧 inasom@outlook.es
 🔗 [LinkedIn INASOM](https://www.linkedin.com)
 
 ---
