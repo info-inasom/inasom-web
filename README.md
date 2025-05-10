@@ -20,8 +20,6 @@ INASOM es un ecosistema que une seis líneas de negocio especializadas para dar 
 
 - `index.html` – Landing page principal
 - `productions_con_imagen.html` – Página de INASOM Productions
-- 🔗 YouTube Oficial
-<img src="https://upload.wikimedia.org/wikipedia/commons/4/42/YouTube_icon_%282013-2017%29.png" alt="YouTube INASOM" width="24" style="vertical-align:middle;"> Accede a nuestro canal para ver los últimos contenidos.
 - `recruiting_con_imagen.html` – Página de Recruiting
 - `events_con_imagen.html` – Página de Events & Marketing
 - `podcast_con_imagen.html` – Página del Podcast
