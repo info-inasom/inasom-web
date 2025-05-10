@@ -10,11 +10,6 @@ INASOM es un ecosistema que une seis líneas de negocio especializadas para dar 
 ## 🚀 Unidades de Negocio
 
 - 🎥 **INASOM Productions** – Contenidos técnicos audiovisuales.
-- <h2>INASOM Productions</h2>
-<p>Explora nuestros contenidos técnicos audiovisuales en nuestro canal de YouTube:</p>
-<p>
-  <a href="https://www.youtube.com/@IndustriaNavalySectorMar%C3%ADtimo" target="_blank" rel="noopener noreferrer">
-    🌐 Visita el canal: Industria Naval y Sector Marítimo en YouTube.
 - ⚙️ **INASOM Recruiting** – Bolsa de talento técnico y selección.
 - 🌐 **INASOM Events & Marketing** – Ferias, jornadas y visibilidad de marca.
 - 🎙️ **INASOM Podcast** – Entrevistas con referentes del sector.
